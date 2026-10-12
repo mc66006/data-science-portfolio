@@ -1,4 +1,4 @@
-# [Your Name] | Data Science Portfolio
+# Li WaiCheng | Data Science Portfolio
 
 Hello! I am a CISC7204 student building practical skills in data analysis and visualization. I enjoy turning a clear question into a reproducible analysis and communicating both the result and its limitations.
 

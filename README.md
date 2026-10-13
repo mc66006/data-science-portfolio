@@ -1,15 +1,7 @@
 # Data Science Portfolio
 
-This repository contains my CISC7204 data science portfolio website.
+This repository contains the GitHub Pages portfolio homepage for **[Your Name]**. The website source is in `index.md` and is published from the `main` branch root using GitHub Pages.
 
-The portfolio presents my study-time and course-score analysis project using simulated data.
+## Before publishing
 
-The website is published with GitHub Pages from `index.md`.
-
-## Project
-
-[Study Time, Tutoring, and Course Scores](https://github.com/mc66006/data-science-project)
-
-## Status
-
-Completed as a simulation-based demonstration.
+Replace `[Your Name]` and the short introduction in `index.md` with accurate information. Confirm the project status, image path, and repository link after uploading the project repository. GitHub Pages is publicly accessible, so do not add private contact details or restricted material.

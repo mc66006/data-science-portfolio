@@ -1,32 +1,39 @@
 # Li WaiCheng | Data Science Portfolio
 
-Hello! I am a CISC7204 student building practical skills in data analysis and visualization. I enjoy turning a clear question into a reproducible analysis and communicating both the result and its limitations.
+Hello! I am a CISC7204 student building practical skills in data cleaning, exploratory analysis, visualization, reproducible Python workflows, and responsible interpretation.
 
 ## Technical skills
 
-Python · pandas · NumPy · Matplotlib · Jupyter Notebook · GitHub
+Python · pandas · NumPy · Matplotlib · Seaborn · scikit-learn · Jupyter Notebook · Git · GitHub Pages
 
 ## Project showcase
 
-### Study Time, Tutoring, and Course Scores
+### Seattle Apartment Rent and Mixed-Income Housing
 
-**Research question:** In a hypothetical student sample, how is focused weekly study time associated with final course scores, and how do scores compare between students with and without tutoring?
+**Status:** Completed course portfolio project; descriptive analysis with a reproducible script.
 
-![Scatterplot of simulated study hours and final course scores](images/study-hours-vs-score.png)
+**Research question:** How are mixed-income apartment counts associated with median apartment rent per unit across Seattle census tracts from 2001 to 2025? Does the pattern differ for year-over-year rent growth, and how well can year, mixed-income count, and property count predict rent levels?
 
-In this simulated example, scores increase more quickly up to about 15 study hours per week and then rise more slowly. The tutoring group is generated with a higher score pattern at the same study time. These patterns are built into synthetic data and do not show that studying or tutoring causes higher scores. The score ceiling also compresses high scores.
+The project uses the City of Seattle's Apartment Market Rent Prices by Census Tract dataset. The cleaned analysis contains 3,931 tract-year rows from 2001–2025. Mixed-income count has a moderate positive correlation with rent per unit (r = 0.464) and a near-zero correlation with year-over-year rent change (r = -0.014). The simple random 80/20 regression benchmark has test R² = 0.422 and RMSE = $329.08. These results describe associations and prediction, not causal effects.
 
-![Boxplot comparing simulated score distributions for tutoring and no-tutoring groups](images/score-distribution-by-tutoring.png)
+![Average Seattle apartment rent over time](figures/rent-trend.png)
 
-The second figure compares the score distributions by tutoring status. It provides a group-level view of spread and overlap, complementing the study-hours scatterplot. Since tutoring status and its score offset were specified when generating the data, the difference is illustrative rather than evidence of a real tutoring benefit.
+![Mixed-income apartments and median rent](figures/mixed-income-rent.png)
 
-![Binned score comparison showing tutoring differences](images/binned-score-comparison.png)
+![Mixed-income apartments and year-over-year rent growth](figures/mixed-income-rent-growth.png)
 
-Peer feedback noted that the 0-100 score ceiling compresses the high-hour observations near the top of the chart. I addressed this with a high-hour diagnostic: its top panel compares binned group means with descriptive 95% confidence intervals on a clearly labeled, zoomed 85-100 axis; its lower panel shows the percentage of observations capped at 100, with sample counts annotated. This helps inspect differences while making the ceiling effect and small-bin uncertainty visible.
+![Community rent comparison](figures/community-rent.png)
 
-- **Project repository:** [Study Time, Tutoring, and Course Scores](https://github.com/mc66006/data-science-project)
-- **Status:** Completed (simulation-based demonstration)
+The main limitations are repeated observations for the same tract, omitted factors such as location and inflation, and the fact that market rent is not a complete affordability measure. A classmate's earlier feedback on my simulated study-time project noted that a 100-point score ceiling compressed high-hour observations. I addressed that feedback with a high-hour diagnostic in [analysis commit e8b49d6](https://github.com/mc66006/data-science-project/commit/e8b49d6) and published it in [portfolio commit 55836db](https://github.com/mc66006/data-science-portfolio/commit/55836db). That feedback applied to the earlier project; a new classmate review of this Seattle analysis would further strengthen the submission.
 
-## Contact
+- **Project repository:** [CISC7204-MC66006-2026GitHub](https://github.com/mc66006/CISC7204-MC66006-2026GitHub)
+- **Data source:** [City of Seattle Open Data](https://data.seattle.gov/dataset/Apartment-Market-Rent-Prices-by-Census-Tract/h27p-5k3i)
+- **Feedback record:** [`FEEDBACK.md`](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/blob/main/FEEDBACK.md)
 
-For course-related discussion, please use the contact method approved for our class. This public page intentionally omits personal contact details.
+## Reflection
+
+This portfolio demonstrates practical skills in data cleaning, validation, exploratory analysis, visualization, model evaluation, reproducible scripting, repository organization, and responsible communication. I used the City of Seattle's Apartment Market Rent Prices by Census Tract dataset to examine how mixed-income apartment counts relate to rent levels and annual rent changes from 2001 to 2025. I checked required fields, converted numeric columns, removed rows with missing analysis values and non-positive rent, and created labelled figures for rent trends, community comparisons, and mixed-income relationships. In the cleaned sample of 3,931 tract-year observations, mixed-income count has a moderate positive correlation with rent per unit (r = 0.464), while its correlation with year-over-year rent change is near zero (r = -0.014). A simple random 80/20 regression benchmark has test R² = 0.422 and RMSE = $329.08. These results describe association and prediction, not causation. Repeated observations by tract can make a random split optimistic, and the analysis does not adjust for inflation, unit mix, vacancy, income, or other local conditions. My next improvement is a time-aware evaluation with inflation-adjusted rent and tract-level grouping. Earlier peer feedback on my simulated study-time project identified score-ceiling compression; I addressed it in commits `e8b49d6` and `55836db`. That feedback concerned the earlier project, so I would also seek a classmate's review of this Seattle analysis before final submission.
+
+## Responsible sharing
+
+The public project uses tract-level aggregate data, contains no passwords, API keys, or private individual records, and links to the City of Seattle source and its listed Open Data Commons PDDL licence.

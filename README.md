@@ -1,7 +1,9 @@
 # Data Science Portfolio
 
-This repository contains the GitHub Pages portfolio homepage for **[Your Name]**. The website source is in `index.md` and is published from the `main` branch root using GitHub Pages.
+This repository is the GitHub Pages source for the CISC7204 data science portfolio. The published site is built from `index.md` on the `main` branch root:
 
-## Before publishing
+<https://mc66006.github.io/data-science-portfolio/>
 
-Replace `[Your Name]` and the short introduction in `index.md` with accurate information. Confirm the project status, image path, and repository link after uploading the project repository. GitHub Pages is publicly accessible, so do not add private contact details or restricted material.
+The project repository is [CISC7204-MC66006-2026GitHub](https://github.com/mc66006/CISC7204-MC66006-2026GitHub). It includes the analysis script, requirements, data provenance, generated figures, limitations, reflection, and peer-feedback commit record required by the CISC7204 rubric.
+
+Before submission, verify both URLs, test every image and link, and confirm that no private material has been added. The portfolio reports associations rather than causal claims and links to the City of Seattle source and its listed Open Data Commons PDDL licence.

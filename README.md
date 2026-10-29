@@ -1,6 +1,12 @@
 # Data Science Portfolio
 
-This repository publishes the portfolio website through GitHub Pages. The root `index.md` introduces the student and links to three project pages: Proposal 1, Proposal 2, and Learning Time and Learning Outcomes. Each page summarizes the research question, visuals, findings, limitations, status, and matching source folder in [`data-science-project`](https://github.com/mc66006/data-science-project).
+This public repository contains the three project pages for the portfolio. Open them directly:
+
+- [Proposal 1 — Seattle Rent and Mixed-Income Housing](https://mc66006.github.io/data-science-portfolio/proposal1/)
+- [Proposal 2 — College Tuition and Ten-Year Earnings](https://mc66006.github.io/data-science-portfolio/proposal2/)
+- [Learning Time and Learning Outcomes](https://mc66006.github.io/data-science-portfolio/learning-time-and-outcomes/)
+
+The matching source files and reproducible analyses are in [`data-science-project`](https://github.com/mc66006/data-science-project).
 
 ## Local structure
 
@@ -10,4 +16,4 @@ This repository publishes the portfolio website through GitHub Pages. The root `
 
 ## Deployment and checks
 
-GitHub Pages should be configured under **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**. The published entry point is the repository-root `index.md`. After publishing, verify that each project page, image, and source-repository link opens. Peer-feedback evidence must reflect an actual review; the current website marks that record as pending rather than inventing it.
+GitHub Pages is configured from the `main` branch and publishes the three subpages above. Each page contains its research question, visualizations, findings, limitations, status, and source-project link. Peer-feedback evidence must reflect an actual review; no unverified feedback is claimed here.

@@ -8,43 +8,32 @@ Python · pandas · NumPy · Matplotlib · Seaborn · scikit-learn · Jupyter No
 
 ## Project showcase
 
-### Seattle Apartment Rent and Mixed-Income Housing
+### Proposal Project 1 — Seattle Rent
 
-**Status:** Completed course portfolio project; descriptive analysis with a reproducible script.
+**Status:** Proposal-stage exploratory project.
 
-**Research question:** How are mixed-income apartment counts associated with median apartment rent per unit across Seattle census tracts from 2001 to 2025? Does the pattern differ for year-over-year rent growth, and how well can year, mixed-income count, and property count predict rent levels?
+This project asks how mixed-income apartment counts may be associated with apartment rent across Seattle census tracts. It is the first proposal project and includes the preliminary proposal, notebook, and course-provided data.
 
-The project uses the City of Seattle's Apartment Market Rent Prices by Census Tract dataset. The cleaned analysis contains 3,931 tract-year rows from 2001–2025. Mixed-income count has a moderate positive correlation with rent per unit (r = 0.464) and a near-zero correlation with year-over-year rent change (r = -0.014). The simple random 80/20 regression benchmark has test R² = 0.422 and RMSE = $329.08. These results describe associations and prediction, not causal effects.
+- **Project website:** [Assignment 01 Seattle Rent Proposal](https://mc66006.github.io/CISC7204-Assignment01-Seattle-Rent-Proposal/)
+- **Repository:** [CISC7204-Assignment01-Seattle-Rent-Proposal](https://github.com/mc66006/CISC7204-Assignment01-Seattle-Rent-Proposal)
 
-![Average Seattle apartment rent over time](figures/rent-trend.png)
+### Proposal Project 2 — College Tuition and Earnings
 
-![Mixed-income apartments and median rent](figures/mixed-income-rent.png)
+**Status:** Proposal-stage descriptive analysis.
 
-![Mixed-income apartments and year-over-year rent growth](figures/mixed-income-rent-growth.png)
+This project asks whether undergraduate tuition is associated with median earnings ten years after entry, and whether the relationship differs between public and private four-year institutions. The filtered sample contains 1,731 institutions.
 
-![Community rent comparison](figures/community-rent.png)
+- **Project website:** [Assignment 02 College Tuition Proposal](https://mc66006.github.io/CISC7204-Assignment02-College-Tuition-Proposal/)
+- **Repository:** [CISC7204-Assignment02-College-Tuition-Proposal](https://github.com/mc66006/CISC7204-Assignment02-College-Tuition-Proposal)
 
-The main limitations are repeated observations for the same tract, omitted factors such as location and inflation, and the fact that market rent is not a complete affordability measure. A verified classmate review and committed response are still pending for the projects shown here; the project repository includes a factual feedback-record template.
+### Learning Time and Learning Outcomes
 
-- **Project repository:** [CISC7204-MC66006-2026GitHub](https://github.com/mc66006/CISC7204-MC66006-2026GitHub)
-- **Data source:** [City of Seattle Open Data](https://data.seattle.gov/dataset/Apartment-Market-Rent-Prices-by-Census-Tract/h27p-5k3i)
-- **Feedback record:** [`FEEDBACK.md`](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/blob/main/FEEDBACK.md)
+**Status:** Completed simulation-based learning project.
 
-### College Tuition and Graduate Earnings
+This project explores the relationship between weekly study time, tutoring, and final course scores using a fully simulated dataset. The results demonstrate reproducible data generation, cleaning, summary statistics, and visualization.
 
-**Status:** Completed descriptive analysis; proposal, executed results, and reproducible figures are archived in the standalone Assignment 02 repository.
-
-**Research question:** Is annual undergraduate tuition associated with median earnings 10 years after entry, and does the relationship differ between public and private four-year institutions?
-
-This project uses an institution-level extract from the U.S. Department of Education [College Scorecard](https://collegescorecard.ed.gov/data/). After restricting to predominantly bachelor's-degree institutions and removing suppressed or invalid values, the analysis contains 1,731 institutions: 566 public and 1,165 private (nonprofit and for-profit combined). Median in-state tuition is $10,330 for public institutions and $35,760 for private institutions, while median 10-year earnings are $59,272 and $58,029. Within-group tuition/earnings correlations are 0.523 for public institutions and 0.644 for private institutions.
-
-![Tuition and 10-year median earnings by institution type](figures/tuition-earnings-scatter.png)
-
-![10-year median earnings by institution type](figures/earnings-by-institution-type.png)
-
-![Annual tuition distribution by institution and residency](figures/tuition-distribution.png)
-
-The analysis is descriptive and institution-level. It does not establish that tuition causes earnings: the data do not control for field of study, geography, preparation, selectivity, financial aid, inflation, living costs, or cohort differences. The complete [Assignment 02 proposal repository](https://github.com/mc66006/CISC7204-Assignment02-College-Tuition-Proposal) contains the results, limitations, reproduction script, proposal, notebook, cleaned data, and figures.
+- **Project website:** [Learning Time and Learning Outcomes](https://mc66006.github.io/data-science-project/)
+- **Repository:** [data-science-project](https://github.com/mc66006/data-science-project)
 
 ## Reflection
 

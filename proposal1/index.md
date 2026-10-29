@@ -16,11 +16,23 @@ The charts show the time pattern, rent versus mixed-income counts, differences a
 
 ![Seattle apartment rent trend, 2001 to 2025](rent-trend.png)
 
+**What this figure shows:** The annual mean and median tract-level contract rent generally increase over 2001–2025. The three-year rolling mean smooths short-term changes so the longer upward pattern is easier to compare.
+
 ![Mixed-income apartment count and tract rent](mixed-income-rent.png)
+
+**What this figure shows:** Each point is a cleaned tract-year observation. The fitted line slopes upward, matching the moderate positive correlation between mixed-income apartment counts and rent level. It describes co-occurrence across tracts; it does not estimate a causal housing effect.
 
 ![Seattle communities with the highest mean rent](community-rent.png)
 
+**What this figure shows:** The bars rank the eight communities with the highest observed mean median rent per unit. The sample counts printed beside the bars show that the comparison is based on different numbers of tract-year observations.
+
 ![Correlation structure of study variables](correlation-heatmap.png)
+
+**What this figure shows:** The heatmap compares pairwise linear correlations among rent, rent per square foot, year-over-year change, mixed-income apartment count, and property count. It helps identify related variables before modeling, but correlation alone cannot establish direction or cause.
+
+## Conclusion
+
+In this exploratory sample, mixed-income apartment counts are moderately associated with rent levels (**r = 0.464**) but have almost no linear association with year-over-year rent growth (**r = -0.014**). The evidence supports further investigation of neighborhood and housing-stock differences rather than a causal claim. Because the data are aggregated by tract and the original data-use terms are not documented in the supplied archive, the next step is to verify provenance and add justified geographic and property controls.
 
 ## Limitations and data note
 

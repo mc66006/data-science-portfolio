@@ -16,9 +16,19 @@ The reproducible sample contains **120 simulated students**. Its data generator 
 
 ![Study hours and scores in the simulated sample](study-hours-vs-score.png)
 
+**What this figure shows:** Scores rise more steeply up to about 15 study hours per week and then flatten. The tutoring series is offset upward because that difference is intentionally specified in the data generator.
+
 ![Simulated score distributions by tutoring status](score-distribution-by-tutoring.png)
 
+**What this figure shows:** The tutoring group is shifted toward higher simulated scores, while both groups show variation and some values near the 100-point ceiling. This is a check of the generated example rather than evidence about real students.
+
 ![High-hour score comparison and score ceiling](binned-score-comparison.png)
+
+**What this figure shows:** For students at or above 15 hours, the upper panel compares group means with descriptive intervals and the lower panel shows the share at the 100-point cap. The small bin counts and ceiling make high-hour differences harder to interpret.
+
+## Conclusion
+
+The simulated data reproduce a non-linear study-time pattern and an approximately five-point tutoring offset by design. They demonstrate how a chart can reveal a threshold, group comparison, and score ceiling, but they cannot support a real educational or causal conclusion. A real analysis would need authorized student data, a pre-specified design, and controls for prior preparation and course context.
 
 ## Limitation and reproduction
 

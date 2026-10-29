@@ -16,9 +16,19 @@ The pattern is institution-level and descriptive. It does not show that higher t
 
 ![Tuition and ten-year earnings by institution type](tuition-earnings-scatter.png)
 
+**What this figure shows:** Each point represents an institution, with separate trend lines for public and private colleges. Both lines slope upward, while the substantial overlap shows why the association should not be read as a guarantee of higher earnings for an individual student.
+
 ![Earnings by institution type](earnings-by-institution-type.png)
 
+**What this figure shows:** The box plot compares the spread of ten-year median earnings for public and private institutions. Their medians are similar even though the private group has much higher tuition, which is a useful caution against equating price with outcome.
+
 ![Tuition distribution](tuition-distribution.png)
+
+**What this figure shows:** The tuition distributions make the public/private price gap visible. Public in-state tuition is lower in the sample; the values are institutional measures and do not represent each student's net price after aid.
+
+## Conclusion
+
+Tuition and ten-year median earnings have positive descriptive associations in both institution groups, with correlations of **0.523** for public and **0.644** for private institutions. Private institutions have a much higher median tuition but similar median earnings in this sample. The analysis therefore supports a question for deeper study, not a claim that tuition causes later earnings. Cohort differences, inflation, financial aid, field of study, selectivity, geography, and the combined nonprofit/for-profit private category remain important limitations.
 
 ## Methods, limitations, and data source
 

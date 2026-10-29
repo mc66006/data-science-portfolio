@@ -4,7 +4,15 @@ I am a CISC7204 student developing practical skills in data cleaning, explorator
 
 ## Projects
 
+Each project has its own portfolio page:
+
+1. [Open Proposal 1 — Seattle Rent and Mixed-Income Housing](proposal1/)
+2. [Open Proposal 2 — College Tuition and Ten-Year Earnings](proposal2/)
+3. [Open Learning Time and Learning Outcomes](learning-time-and-outcomes/)
+
 ### Proposal 1 — Seattle Rent and Mixed-Income Housing
+
+[Open the Proposal 1 project page](proposal1/)
 
 **Question:** How are mixed-income apartment counts associated with Seattle tract-level rents and rent growth?
 
@@ -18,6 +26,8 @@ The exploratory sample contains 3,931 positive-rent tract observations from 2001
 
 ### Proposal 2 — College Tuition and Ten-Year Earnings
 
+[Open the Proposal 2 project page](proposal2/)
+
 **Question:** Is annual tuition associated with median earnings ten years after entry, and does the pattern differ by institution type?
 
 ![College tuition and earnings by institution type](proposal2/tuition-earnings-scatter.png)
@@ -29,6 +39,8 @@ The filtered sample contains 1,731 predominantly four-year institutions. Tuition
 [View project summary](proposal2/) · [Open source project files](https://github.com/mc66006/data-science-project/tree/main/proposal2)
 
 ### Learning Time and Learning Outcomes
+
+[Open the Learning Time project page](learning-time-and-outcomes/)
 
 **Question:** In a hypothetical student sample, how are study time and tutoring related to final scores?
 

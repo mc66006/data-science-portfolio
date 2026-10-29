@@ -32,7 +32,7 @@ The main limitations are repeated observations for the same tract, omitted facto
 
 ### College Tuition and Graduate Earnings
 
-**Status:** Completed descriptive analysis; proposal, executed results, and reproducible figures archived in Assignment 02.
+**Status:** Completed descriptive analysis; proposal, executed results, and reproducible figures are archived in the standalone Assignment 02 repository.
 
 **Research question:** Is annual undergraduate tuition associated with median earnings 10 years after entry, and does the relationship differ between public and private four-year institutions?
 
@@ -44,7 +44,7 @@ This project uses an institution-level extract from the U.S. Department of Educa
 
 ![Annual tuition distribution by institution and residency](figures/tuition-distribution.png)
 
-The analysis is descriptive and institution-level. It does not establish that tuition causes earnings: the data do not control for field of study, geography, preparation, selectivity, financial aid, inflation, living costs, or cohort differences. The complete [results and limitations](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/blob/main/cisc7204-Assgn02-2026-MC660061/personalproposal/RESULTS.md), [reproduction script](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/blob/main/cisc7204-Assgn02-2026-MC660061/personalproposal/analyze_college_scorecard.py), [proposal](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/tree/main/cisc7204-Assgn02-2026-MC660061/personalproposal), and [cleaned data](https://github.com/mc66006/CISC7204-MC66006-2026GitHub/blob/main/cisc7204-Assgn02-2026-MC660061/personalproposal/cleaned_data.csv) are available in the project repository.
+The analysis is descriptive and institution-level. It does not establish that tuition causes earnings: the data do not control for field of study, geography, preparation, selectivity, financial aid, inflation, living costs, or cohort differences. The complete [Assignment 02 proposal repository](https://github.com/mc66006/CISC7204-Assignment02-College-Tuition-Proposal) contains the results, limitations, reproduction script, proposal, notebook, cleaned data, and figures.
 
 ## Reflection
 
